@@ -1,0 +1,727 @@
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,500i,700,700i');
+
+
+body {
+ margin: 0px !important;
+ font-family: 'Inter', sans-serif;  
+}
+
+.row2{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+ul#menù {list-style: none; 
+  margin: 0 auto; 
+  width: 400px;
+}
+#menù li {float: left ;
+}
+#menù li a {
+	display: block;
+	line-height: 30px;
+	height: 40px;
+	width: 70px;
+	text-align: center ;
+	text-decoration: none;
+	color: black;	
+}
+#menù li a: hover {background-color: #ffffff;
+}
+
+/* Nav Bar */
+.sottotitolo {
+	position: relative;
+	top:-15px;
+
+}
+
+.titolo{
+  font-family: "Montserrat", sans-serif;
+	position: relative;
+	top: 5px;
+}
+
+h7{
+  font-family: "Montserrat", sans-serif;
+	font-size: 0.7rem;
+}
+
+
+.bg-dark-black {
+    background-color: #000 !important;
+}
+
+.navbar-brand{
+   padding-left: 40px; 
+}
+
+#navbarNav{
+  padding-right: 40px; 
+}
+
+
+
+/* Brand */
+.container2 {
+  max-width: 100%;
+}
+
+.nk-gap-5 {
+  height: 100px;
+  /*  margin-right: -15px;
+  margin-left: -15px; */
+}
+
+.nk-gap-2 {
+  height: 20px;
+  /*  margin-right: -15px;
+  margin-left: -15px; */
+}
+
+.display-1, .display-2, .display-3, .display-4, .display-big, .display-extra-big {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #171717;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.brand-img:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.margin-overlay{
+	margin-bottom: 2.5rem !important;
+	margin-right: 1.0rem !important;
+	margin-left: 1.0rem !important;
+}
+
+.logo-brand-page{
+  width: 30%
+}
+
+.logo-brand-page2{
+  width: 25%
+}
+
+.h-30rem {
+  height: 32rem;
+}
+
+
+/* Contatti */
+
+.nk-gap-3 {
+  height: 60px;
+}
+
+.nk-gap-4 {
+  height: 80px;
+}
+
+.nk-ibox-5 {
+  position: relative;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.nk-ibox-5 .nk-ibox-icon {
+  width: 100px;
+  height: 100px;
+  margin-top: 5px;
+  margin-right: auto;
+  margin-bottom: 17px;
+  margin-left: auto;
+  font-size: 3.3rem;
+  line-height: 110px;
+  color: #252525;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.nk-ibox-5 .nk-ibox-title {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  color: #171717;
+}
+
+.nk-ibox-title {
+  font-size: 1.25rem;
+}
+
+.nk-ibox-5 .nk-ibox-text {
+  margin-top: 8px;
+  color: #444444;
+  opacity: .75;
+}
+
+.mappa:hover, .tel:hover , .mail:hover{
+  text-decoration: none;
+}
+
+/* Aminazione icone contatti */
+
+.nk-ibox-5:hover .nk-ibox-icon > span {
+  -webkit-animation: nk-ibox-5-jump 1s ease 0s 1 normal;
+  animation: nk-ibox-5-jump 1s ease 0s 1 normal;
+}
+
+@-webkit-keyframes nk-ibox-5-jump {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  20% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  50% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  60% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  80% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes nk-ibox-5-jump {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  20% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  50% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  60% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  80% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+
+/* Esperienza lavorativa */
+
+
+.nk-ibox-1 {
+  position: relative;
+  min-height: 50px;
+  padding: 20px;
+}
+
+.nk-ibox-1 .nk-ibox-icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-top: 3px;
+  font-size: 3.3rem;
+  line-height: 50px;
+  text-align: center;
+  color: blue;
+}
+
+.nk-ibox-1 .nk-ibox-cont {
+  margin-left: 72px;
+}
+
+.nk-ibox-1 .nk-ibox-title {
+  font-weight: 500;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nk-ibox-title {
+  font-size: 1.29rem;
+  font-weight: bold;
+}
+
+.nk-ibox-1 .nk-ibox-text {
+  margin-top: -1px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.grey-color{
+	background-color: #f6f6f6
+}
+
+.nk-box-4, .nk-box-rounded-4 {
+  padding: 72px;
+}
+
+p {
+  margin-bottom: 1.6rem;
+}
+
+.text-brand{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
+
+
+/* Image Su di me */
+
+.bg-image, .bg-video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-position: 50% 50%;
+  background-size: cover;
+  z-index: -1;
+}
+
+.bg-image img, .bg-video img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "object-fit: cover;";
+  z-index: -1;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.container-fluid2 {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* footer */
+.contatti{
+  color: #9b9a9a;
+  font-size: 13px;
+  margin-bottom: 0
+}
+
+.nk-footer .nk-footer-scroll-top-btn-2 {
+  display: block;
+  font-size: .85rem;
+  font-weight: 500;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  opacity: .4;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  transition: .2s;
+  z-index: 1;
+}
+.text-gray-1 {
+  color: #fafafa !important;
+}
+
+.nk-footer .nk-footer-cont-md {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.nk-social > a {
+  padding: 5px;
+  font-size: 1.13rem;
+  color: inherit;
+  opacity: .4;
+}
+
+.nk-social2 > a {
+  padding: 5px;
+  font-size: 1.5rem;
+  color: inherit;
+  opacity: .4;
+}
+
+
+ul {
+  list-style: none;
+}
+
+.bi-linkedin:hover , .linkedin:hover {
+  color: #007fff;
+  opacity: 0.9;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s;
+}
+
+.bi-file-richtext:hover , .doc:hover {
+  color: #ffad33;
+  opacity: 0.9;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s;
+}
+
+
+.nk-header-title {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    overflow: hidden;
+    text-align: center;
+}
+
+.nk-header-title .nk-header-content {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    min-height: 470px;
+    padding-top: 75px;
+}
+
+.Privacy {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.go-to-top{
+  text-align: center ;
+  text-decoration: none;
+  color: black;
+}
+
+.go-to-top:hover {
+  text-align: center ;
+  text-decoration: none;
+  color: gray;
+}
+
+
+/* visualizzazione foto */
+
+.nk-portfolio-list .nk-portfolio-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.nk-portfolio-list .nk-portfolio-item .nk-portfolio-item-link {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.nk-gallery-item {
+  position: relative;
+}
+
+
+
+.book .image-book:hover {
+  color: white;
+  opacity: 0.6;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+}
+
+.book:hover .text-4 {
+  color: #003cee8a;
+  opacity: 1;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+}
+
+.brand-img:hover .text-center{
+  color: black;
+  opacity: 1;
+}
+
+.text-4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 1.0;
+  color: #171717;
+  font-size: 0.9rem;
+   color:#35353578;
+}
+
+.text_didascalia{
+  font-size: .8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+/* colore testo */
+
+.text-gray{
+  color: #403f3feb;
+}
+
+/* Anteprima */
+
+.titolo-anteprima{
+  font-size: 4.0rem !important;
+}
+
+/* social */
+
+.nk-social-instagram:hover {
+  color: #E1306C;
+  opacity: 1;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+}
+
+.nk-social-sitoweb:hover {
+  color: blue;
+  opacity: 1;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+}
+
+.nk-gap-2-center{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+/* nav brand */
+
+.brand-nex-prev {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+}
+
+.next, .prev {
+    min-width: 190px;
+    text-decoration: none;
+    color: #020202 !important;
+}
+
+
+/* Video */
+
+.video{
+  width: 100%;
+  height: 100%
+}
+
+.container-video{
+  min-height: 315px;
+}
+
+
+
+
+
+/* Visualizzazione Immagini */
+
+
+.lightbox-target {
+position: fixed;
+top: 0;
+width: 100%;
+background: rgba(0,0,0,.9);
+width: 100%;
+opacity: 0;
+-webkit-transition: opacity .5s ease-in-out;
+-moz-transition: opacity .5s ease-in-out;
+-o-transition: opacity .5s ease-in-out;
+transition: opacity .5s ease-in-out;
+overflow: hidden;
+z-index: 999;
+}
+
+/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+
+.lightbox-target img {
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+max-height: 0%;
+max-width: 0%;
+border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+box-sizing: border-box;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+  
+}
+
+/* Styles the close link, adds the slide down transition */
+
+a.lightbox-close {
+display: block;
+width:50px;
+height:50px;
+box-sizing: border-box;
+background: white;
+color: black;
+text-decoration: none;
+position: absolute;
+top: -80px;
+right: 0;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:before {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+transform:rotate(45deg);
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:after {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(-45deg);
+-moz-transform:rotate(-45deg);
+-o-transform:rotate(-45deg);
+transform:rotate(-45deg);
+}
+
+/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+
+.lightbox-target:target {
+opacity: 1;
+top: 0;
+bottom: 0;
+  overflow:scroll;
+}
+
+.lightbox-target:target img {
+max-height: 100%;
+max-width: 100%;
+}
+
+.lightbox-target:target a.lightbox-close {
+top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.sfondo-body{
+  background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url('sfondo-profumo.jpg') fixed ;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.main-title-border::after, .main-title-border::before {
+    display: inline-block;
+    margin-top: -7px;
+    vertical-align: middle;
+    content: "";
+    background-color: #d0d0d0;
+    width: 30px;
+    height: 1px;
+}
+
+.doc-prof-size{
+  height: 20px;
+}
+
+
+
+
+
+
+
+
+
